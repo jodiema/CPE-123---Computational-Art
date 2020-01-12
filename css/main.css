@@ -18,7 +18,9 @@ h1 {
 }
 
 #labs li {
-	margin: 15px;
+	margin: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 #artwork {
