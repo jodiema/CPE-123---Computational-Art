@@ -1,13 +1,13 @@
 
 body {
-	text-align: center;
     background: white;
     font-family: 'Roboto', sans-serif;
     color: #313233;
-    margin: 80px;
+    text-align: center;
 }
 
 h1 {
+	padding-top: 50px;
 	font-size: 30pt;
 }
 
@@ -25,4 +25,18 @@ h1 {
 
 #artwork {
 	margin-top: 50px;
+}
+
+#back {
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#reference {
+	display: inline;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
 }
