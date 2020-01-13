@@ -1,7 +1,7 @@
 
 body {
+	font-family: 'Roboto', sans-serif;
     background: white;
-    font-family: 'Roboto', sans-serif;
     color: #313233;
     text-align: center;
 }
@@ -9,6 +9,7 @@ body {
 h1 {
 	padding-top: 50px;
 	font-size: 30pt;
+	letter-spacing: 1px;
 }
 
 #labs {
@@ -39,4 +40,53 @@ h1 {
 	float: right;
 	margin-top: 20px;
 	margin-right: 20px;
+}
+
+#links a {
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 350px;
+}
+
+#fun a {
+	background-color: #C3DAF2;
+}
+
+#blexbolex a {
+   background-color: #ADC3F3;
+}
+
+#surrealism a {
+	background-color: #9CB2F3;
+}
+
+#organic a {
+	background-color: #8197F5;
+}
+
+#structured a {
+	background-color: #6B82F5;
+}
+
+#impressionism a {
+	background-color: #AB79FF;
+}
+
+#duck a {
+	background-color: #B289FF;
+}
+
+#combination a {
+	background-color: #BD98FF;
+}
+
+#game a {
+	background-color: #C5AFFF;
+}
+
+#links a:hover {
+	background-color: #767C8A;
 }
