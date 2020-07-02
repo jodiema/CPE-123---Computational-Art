@@ -2,14 +2,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
     background: white;
-    color: #313233;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 h1 {
-	padding-top: 100px;
+	padding-top: 60px;
+	padding-bottom: 30px;
 	font-size: 30pt;
 	letter-spacing: 1px;
+	color: #383E46;
 }
 
 #labs {
@@ -103,4 +105,10 @@ h1 {
 
 #links a:hover {
 	background-color: #383E46;
+}
+
+h1:hover {
+	background: linear-gradient(to right, rgba(113,148,236,0.8), rgba(181,58,178,0.5), rgba(181,123,228,1));
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
